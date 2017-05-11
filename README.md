@@ -1,2 +1,2 @@
 # icarlossz.github.io
-This is my portfolio using github pages.
+Personal page using github pages.
