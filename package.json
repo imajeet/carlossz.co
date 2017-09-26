@@ -16,5 +16,8 @@
     "landing"
   ],
   "author": "@iCarlosSz",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "create-react-app": "^1.4.0"
+  }
 }
