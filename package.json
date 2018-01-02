@@ -1,23 +1,33 @@
 {
-  "name": "carlosszco",
-  "version": "0.1.0",
-  "description": "this is a landing page",
-  "main": "index.js",
+  "name": "blackome",
+  "version": "0.1.6",
+  "description": "personal page made in react & nextjs",
+  "main": "pages/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next export -o docs && git checkout -- docs/CNAME && git checkout -- docs/.nojekyll && git add docs && git commit -m \"chore: regen site\" && git push origin master"
   },
   "repository": {
     "type": "git",
-    "url": "icarlossz.github.io"
+    "url": "https://github.com/icarlossz/blackome.git"
   },
   "keywords": [
-    "carlossz",
-    "portfolio",
-    "landing"
+    "personal",
+    "react",
+    "next"
   ],
-  "author": "@iCarlosSz",
+  "author": "CarlosSz",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icarlossz/blackome/issues"
+  },
   "dependencies": {
-    "create-react-app": "^1.4.0"
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^4.2.1",
+    "nprogress": "^0.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
