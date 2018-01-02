@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/_error', function() {
+            var comp = module.exports=webpackJsonp([9],{211:function(t,e,n){t.exports=n(212)},212:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var l=n(0),r=function(t){return t&&t.__esModule?t:{default:t}}(l),o=n(17),a=function(){return r.default.createElement("article",{id:"error"},r.default.createElement("div",{className:"errorMsg"},r.default.createElement("h1",null,"404"),r.default.createElement("h2",null,"Lo sentimos, la pagina que buscas no existe..."),r.default.createElement("style",null,"\n\t\t\t\t.error { padding-bottom: 50px; }\n\t\t\t\t.errorMsg h1 {\n\t\t\t\t\tcolor: #FFF;\n\t\t\t\t\tdisplay: inline-block;\n\t\t\t\t\tfont-size: 20px;\n\t\t\t\t\tpadding: 5px 20px;\n\t\t\t\t\tborder-right: 2px solid #FFF;\n\t\t\t\t}\n\t\t\t\t.errorMsg h2 {\n\t\t\t\t\tfont-weight: 100;\n\t\t\t\t\tpadding: 0 20px;\n\t\t\t\t\tdisplay: inline-block;\n\t\t\t\t\tcolor: #FFF;\n\t\t\t\t}\n\t\t\t")),r.default.createElement(o.Button,{msg:"Volver al Home"}))};e.default=function(){return r.default.createElement(o.Layout,{title:"Not Found",content:a})}}},[211]);
+            return { page: comp.default }
+          })
+        
