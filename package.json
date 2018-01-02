@@ -5,9 +5,8 @@
   "main": "pages/index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export -o docs && touch docs/.noyekyll && echo carlossz.co > docs/CNAME",
     "start": "next start",
-    "deploy": "next export -o docs && git checkout -- docs/CNAME && git checkout -- docs/.nojekyll && git add docs && git commit -m \"chore: regen site\" && git push origin master"
   },
   "repository": {
     "type": "git",
