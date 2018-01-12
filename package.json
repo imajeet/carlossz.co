@@ -5,7 +5,7 @@
   "main": "pages/index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export -o docs && touch docs/.noyekyll && echo carlossz.co > docs/CNAME",
+    "build": "next build && next export -o docs && touch docs/.nojekyll && echo carlossz.co > docs/CNAME",
     "start": "next start"
   },
   "repository": {
