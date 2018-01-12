@@ -4,7 +4,7 @@ import {Layout, Button, Input} from '../components'
 class Form extends Component {
 	render() {
 		return (
-			<form action="//formspree.io/carlosszgreen" id="Form" method="POST">
+			<form action="//formspree.io/me@carlossz.co" id="Form" method="POST">
 				<link rel="stylesheet" href="https://cdn.jsdelivr.net/alertifyjs/1.10.0/css/alertify.min.css"/>
 				<style>{`
 					.ajs-message {
