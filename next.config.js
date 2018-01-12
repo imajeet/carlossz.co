@@ -8,8 +8,8 @@ module.exports = {
     "/portafolio": { page: "/portafolio" }
   }),
 
-  // assetPrefix: 'http://carlossz.co',
-  assetPrefix: 'http://localhost:3000',
+  assetPrefix: 'http://carlossz.co',
+  // assetPrefix: 'http://localhost:3000',
 
   webpack: (config, { dev }) => {
     config.module.rules = config.module.rules.map(rule => {

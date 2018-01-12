@@ -5,27 +5,27 @@ import Link from 'next/link'
 export default () => (
 	<article className="menu">
 	  <div className="img-container">
-	    <Link href="/" prefetch>
+	    <Link href="/">
 				<a><img src="/static/cartoon-hb.svg" alt="Cartoon" /></a>
 			</Link>
 	  </div>
 
 	  <ul>
-	    <li><Link prefetch href="/bio">
+	    <li><Link href="/bio">
     		<a>
    				<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>
    				Biografia
     			<div className="mobile"><img src="/static/avatar.svg" alt="Bio"/></div>
     		</a>
 	    </Link></li>
-	    <li><Link prefetch href="/portafolio">
+	    <li><Link href="/portafolio">
 	    	<a>
     			<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>
     			Portafolio
 	    		<div className="mobile"><img src="/static/portafolio.svg" alt="Portafolio"/></div>
 	    	</a>
 	    </Link></li>
-	    <li><Link prefetch href="/contact">
+	    <li><Link href="/contact">
 	    	<a>
     			<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>
     			Contacto

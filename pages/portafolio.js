@@ -5,7 +5,7 @@ import { Layout } from '../components'
 const Portafolio = () => (
 	<div id="portafolios">
 		<Link href="/design">
-			<article className="portafolio portafolioDesigner">
+			<a><article className="portafolio portafolioDesigner">
 				<div className="img" />
 				<h3>Designer</h3>
 				<svg>
@@ -14,11 +14,11 @@ const Portafolio = () => (
 					<line className="bottom" x1="-600" y1="400" x2="300" y2="400" />
 					<line className="right" x1="300" y1="0" x2="300" y2="1200" />
 				</svg>
-			</article>
+			</article></a>
 		</Link>
 
 		<Link href="/dev">
-			<article className="portafolio portafolioDev">
+			<a><article className="portafolio portafolioDev">
 				<div className="img" />
 				<h3>Developer</h3>
 				<svg>
@@ -27,7 +27,7 @@ const Portafolio = () => (
 					<line className="bottom" x1="-600" y1="400" x2="300" y2="400" />
 					<line className="right" x1="300" y1="0" x2="300" y2="1200" />
 				</svg>
-			</article>
+			</article></a>
 		</Link>
 
 		<style jsx>{`

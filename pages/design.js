@@ -19,9 +19,11 @@ class Repos extends Component {
 		})
 	}
 
-	componentDidMount() { return this.fetchRepos() }
+	componentDidMount() { this.fetchRepos() }
 
 	render() {
+		console.log(this.state)
+		
 		return (
 			<article id="designRepositories">
 				{this.state.loading && <Spinner />}
@@ -55,7 +57,8 @@ class Repos extends Component {
 						display: flex;
 						justify-content: space-between;
 						-ms-align-items: center;align-items: center;
-						-webkit-flex-wrap: wrap;-moz-flex-wrap: wrap;-ms-flex-wrap: wrap;-o-flex-wrap: wrap;flex-wrap: wrap;
+						flex-wrap: wrap;
+						justify-content: center;
 						max-width: 768px;
 						width: 90%;
 						margin: 0 auto;
