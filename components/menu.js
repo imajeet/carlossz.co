@@ -14,21 +14,21 @@ export default () => (
 	    <li><Link href="/bio">
     		<a>
    				<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>
-   				Biografia
+   				Biography
     			<div className="mobile"><img src="/static/avatar.svg" alt="Bio"/></div>
     		</a>
 	    </Link></li>
 	    <li><Link href="/portafolio">
 	    	<a>
     			<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>
-    			Portafolio
-	    		<div className="mobile"><img src="/static/portafolio.svg" alt="Portafolio"/></div>
+    			Portfolio
+	    		<div className="mobile"><img src="/static/portafolio.svg" alt="Portfolio"/></div>
 	    	</a>
 	    </Link></li>
 	    <li><Link href="/contact">
 	    	<a>
     			<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>
-    			Contacto
+    			Contact
 	    		<div className="mobile"><img src="/static/mail.svg" alt="Contact"/></div>
 	    	</a>
 	    </Link></li>
